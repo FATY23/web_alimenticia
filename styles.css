@@ -1,5 +1,5 @@
  header{
-  position:relative;
+  position:unset;
     top: 0;
     width: 100%;
     z-index: 2;
@@ -39,13 +39,13 @@ text-align: center;}
  .card{ 
   background-color:  rgb(141, 141, 130);
     max-width:500px;
-    height: 450px;
+    height: 500px;
     border: 2px solid ;
     border-radius: 10px;
     padding: 20px;
     margin: 0 auto;
    text-align: center;
-   margin-top: 200px;
+   margin-top: 40px;
    
 }
  .card img{ width: 101% ;
@@ -58,7 +58,10 @@ nav li{
  p{text-wrap:balance ;
 font-family: verdana black;
 background-color: #ecdf68;
+color: #000;
 }
+h5{color: #000;
+background-color: aliceblue;}
 body{background-color: rgb(92, 69, 69);
  
   }
@@ -75,7 +78,6 @@ body{background-color: rgb(92, 69, 69);
   padding: 5px;
   margin: auto;
   max-width: 1100px;
-
  
 }
 nav{text-decoration: none;}
@@ -91,11 +93,11 @@ main{
  padding: auto;
 
 }
-.card2{max-width: 350px;
-  height: 450px;
+.card2{max-width: 500px;
+  height: auto;
   flex-wrap: wrap;
   display: flex;
-  text-align: center;
+  text-align:justify;
   border: 5px solid;
   background-color: #546301;
   margin: auto;
@@ -107,7 +109,7 @@ main{
 .card2 p{background-color: #999999;}
 .card2 img{
   max-width:360px;
-  height: 200px;
+  height: 250px;
   max-height: 300px;
   border-radius: 10px;
   padding: 10px;
@@ -122,6 +124,9 @@ color: #15dd1f;}
 
 footer{background-color: #e7d957;
 text-decoration: #e7d957;
+}
+.carouselslide{
+ 
 }
 @media screen and (max-width:700px) {
   header{
